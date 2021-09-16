@@ -29,8 +29,8 @@ PlayerGame.create(player_id: player1.id, game_id: game2.id, active: false)
 PlayerGame.create(player_id: player1.id, game_id: game3.id, active: true)
 
 PlayerGame.create(player_id: player2.id, game_id: game4.id, active: false)
-PlayerGame.create(player_id: player2.id, game_id: game4.id, active: false)
-PlayerGame.create(player_id: player2.id, game_id: game4.id, active: true)
+PlayerGame.create(player_id: player2.id, game_id: game5.id, active: false)
+PlayerGame.create(player_id: player2.id, game_id: game6.id, active: true)
 
 PlayerGame.create(player_id: player3.id, game_id: game7.id, active: true)
 PlayerGame.create(player_id: player3.id, game_id: game2.id, active: false)
