@@ -25,7 +25,7 @@ class PlayerGamesController < ApplicationController
           player_game.update(player_id: params[:player_id], game_id: params[:game_id], active: params[:active])
           render json: player_game
         else
-          render json: { error: "Bird not found" }, status: :not_found
+          render json: { error: "PlayerGame not found" }, status: :not_found
         end
     end
 end
