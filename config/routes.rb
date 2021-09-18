@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get 'players', to: 'players#index'
 
   get 'player_games/:id', to: 'player_games#index'
+
+  resources :player_games, only: [:create, :destroy, :update]
 end
