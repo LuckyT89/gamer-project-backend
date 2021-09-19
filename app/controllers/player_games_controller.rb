@@ -13,7 +13,7 @@ class PlayerGamesController < ApplicationController
         player_game = PlayerGame.find_by(id: params[:id])
         if player_game
           player_game.destroy
-          head :no_content
+          render json: {}
         else
           render json: { error: "PlayerGame not found" }, status: :not_found
         end
